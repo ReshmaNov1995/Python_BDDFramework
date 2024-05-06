@@ -31,5 +31,5 @@ behave -v --no-capture -f allure_behave.formatter:AllureFormatter -o
 Procedure_end_end/BDD/Background/steps/Advance_background/steps/background.feature
 Note: (verbose - small info, format - Json file will be formatted, output - Report creation path, feature file's path(Relative path is enough))
 
-
+While writing the method "context" has to be written inside the method.
 
