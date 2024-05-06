@@ -1,0 +1,35 @@
+Intro: Behavioural driven development. Agile s/w development technique. 
+Developer, QA, Non-Technical Guy(Business Analyst) will involve in the process. BDD is said to be Behave in python.
+It will work based on feature directories(involves step definition and feature file).
+
+Sponsor(Client) /BA will give the scenario to develop. Based on this scenario, we will write in a Gherkin language keyword.
+Gherkin language is easy to understand that's why it is a advantage of BDD.
+
+Feature file - Create directory in the name of steps and create the file inside it with the extension of .feature.
+Step Definition - It is written in Python file.
+
+Feature file - It has 6 section. Both feature file and step file should be inside the step folder.
+Inside the feature file,
+
+Feature:feature name
+Scenario:short description
+Given:condition (chrome la launch aganum)
+When:oru event(login pandrom)
+And:UN
+And:password
+Then:when oda output(home page varanum)
+And:validate the title name
+
+Note: "And" is used for continuation of "When" and "Then". While using in python file it has to be used as Then and When only.
+To run the file, behave filename.feature --no-capture
+--no-capture -> This will show the print statement in console.
+Feature file has to be run in BDD framework. It will call the step definition file by default.
+Print statement will be displayed automatically if the Testcase has failed.
+
+behave -v --no-capture -f allure_behave.formatter:AllureFormatter -o 
+"Procedure_end_end/BDD/Background/steps/Advance_background/steps/reports/" 
+Procedure_end_end/BDD/Background/steps/Advance_background/steps/background.feature
+Note: (verbose - small info, format - Json file will be formatted, output - Report creation path, feature file's path(Relative path is enough))
+
+
+
