@@ -1,0 +1,14 @@
+@Regression
+Feature:The login page test case
+@unit
+Scenario:Positive test cases
+....
+....
+
+@smoke
+Scenario:Test cases for passing parameter
+
+behave xxxx.py --no-capture --tags=unit
+behave xxxx.py --no-capture --tags=unit,smoke (OR)
+behave xxxx.py --no-capture --tags=unit --tags=smoke (AND)
+behave xxxx.py --no-capture --tags=~unit (NOT)
