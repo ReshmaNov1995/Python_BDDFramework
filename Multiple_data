@@ -1,0 +1,10 @@
+Scenario Outline: Negative test cases for <user> and <password>
+.....
+.....
+.....
+
+Examples:
+      | user    | password |
+      | cdolman | 123      |
+      | cdolman | 123      |
+      | cdolman | 123      |
