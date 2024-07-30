@@ -39,4 +39,4 @@ Note: (verbose - small info, format - Json file will be formatted, output - Repo
 While writing the method "context" has to be written inside the method.
 steps directory's python file should utilise the unique .feature file. same .feature file shouldn't used in diff python files under steps directory.
 
-
+When tag name assign to the particular "feature" file name has mentioned as the run command. Then particular "feature" file only runs, other "feature" file inside the "features" folder will be skipped.
