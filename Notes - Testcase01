@@ -31,6 +31,7 @@ Feature file has to be run in BDD framework. It will call the step definition fi
 Print statement will be displayed automatically if the Testcase has failed.
 
 behave -v --no-capture -f allure_behave.formatter:AllureFormatter -o 
+behave —no-capture -f allure_behave.formatter:AllureFormatter -o “report folder” —tags=T001
 "Procedure_end_end/BDD/Background/steps/Advance_background/steps/reports/" 
 Procedure_end_end/BDD/Background/steps/Advance_background/steps/background.feature
 Note: (verbose - small info, format - Json file will be formatted, output - Report creation path, feature file's path(Relative path is enough))
