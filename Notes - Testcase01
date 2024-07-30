@@ -8,6 +8,9 @@ Gherkin language is easy to understand that's why it is a advantage of BDD.
 Feature file - Create directory in the name of steps and create the file inside it with the extension of .feature.
 Step Definition - It is written in Python file.
 
+pip install behave
+pip install allure-behave
+
 Feature file - It has 6 section. Both feature file and step file should be inside the step folder.
 Inside the feature file,
 
@@ -33,4 +36,6 @@ Procedure_end_end/BDD/Background/steps/Advance_background/steps/background.featu
 Note: (verbose - small info, format - Json file will be formatted, output - Report creation path, feature file's path(Relative path is enough))
 
 While writing the method "context" has to be written inside the method.
+steps directory's python file should utilise the unique .feature file. same .feature file shouldn't used in diff python files under steps directory.
+
 
