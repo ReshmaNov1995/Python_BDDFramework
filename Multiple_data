@@ -8,5 +8,7 @@ Examples:
       | cdolman | 123      |
       | cdolman | 123      |
       | cdolman | 123      |
+Here each and every user,password will taken as scenario.
+
 Refer T003.feature, T003.py
 Also refer the environment.py file.
