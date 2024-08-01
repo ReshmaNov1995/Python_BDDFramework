@@ -15,3 +15,6 @@ behave xxxx.py --no-capture --tags=unit
 behave xxxx.py --no-capture --tags=unit,smoke (OR)
 behave xxxx.py --no-capture --tags=unit --tags=smoke (AND)
 behave xxxx.py --no-capture --tags=~unit (NOT)
+
+Refer T001.py, T002.py, T001.feature, T002.feature.
+Also refer the environment.py file.
