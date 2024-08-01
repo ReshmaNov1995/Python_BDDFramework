@@ -8,6 +8,9 @@ Scenario:Positive test cases
 @smoke
 Scenario:Test cases for passing parameter
 
+Tag name can be any name. It should be a relevant name.
+
+Testcase Run commands,
 behave xxxx.py --no-capture --tags=unit
 behave xxxx.py --no-capture --tags=unit,smoke (OR)
 behave xxxx.py --no-capture --tags=unit --tags=smoke (AND)
