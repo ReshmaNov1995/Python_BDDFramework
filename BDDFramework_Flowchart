@@ -1,0 +1,8 @@
+While Run-> check for environment file. If exists, it will execute. 
+If not then it will look for feature file relevant to the given name in the terminal. Then it execute.
+
+In feature file, Check for tag, feature, scenario and scenario outline with examples.
+If tag name is mentioned in more than one step definition file. Then it will execute based on the alphabetical order of the step definition file.
+Then it check for given message in the step definitions files.
+If duplicate given message in the step definitions files then it throws ambiguity.
+Same for when and then.
