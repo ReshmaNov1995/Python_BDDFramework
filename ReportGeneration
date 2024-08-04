@@ -1,0 +1,10 @@
+
+pip install allure-combine
+# Below command to convert Json file to HTML file inside the html folder
+allure generate C:\Users\reshu\PycharmProjects\Practice_BDD\Reports  -o C:\Users\reshu\PycharmProjects\Practice_BDD\html
+
+# below command line to generate report from the html file
+allure-combine  C:\Users\reshu\PycharmProjects\Practice_BDD\html  --dest C:\Users\reshu\PycharmProjects\Practice_BDD\reports_output
+
+# below command line to view the preview of the report
+allure serve "C:\Users\reshu\PycharmProjects\Practice_BDD\Reports" 
